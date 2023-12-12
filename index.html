@@ -45,4 +45,9 @@
     <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
 
 </body>
-</html>
+</html> 
+
+function tocaSomClap(){
+document.querySelector(‘#som_tecla_clap’).play();
+}
+document.querySelector(‘.tecla_clap’).onclick = tocaSomClap;
